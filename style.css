@@ -121,17 +121,17 @@ nav a:hover{
 }
 .download-cv{
     margin-top: 10px;
+    background-color: #e2e8f0;
     width: 150px;
     padding: 10px;
     border: none;
     transition: 0.5s;
     border-radius: 30px;
-}
-.download-cv:hover{
-    color: white;
-    background-color: #0f172a;
     cursor: pointer;
-    transition: 0.5s;
+}
+.download-cv img{
+    width: 16px;
+    margin-left: 5px;
 }
 
 /* Icon */
@@ -170,7 +170,6 @@ icons a img:hover{
 .aside img{
     width: 100%;
     object-fit: cover;
-
 }
 
 /* Form */
