@@ -207,9 +207,17 @@ icons a img:hover{
     width: 100px;
     padding: 10px;
     margin-top: 20px;
+    font-weight: bold;
     color: white;
     background-color: #0f172a;
     border-radius: 10px;
     border: none;
-
+    transition: 0.5s;
+}
+.form button:hover{
+    border: 2px solid #334155;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    color: #334155;
 }
